@@ -27,13 +27,16 @@ namespace EHGenerator
             string storageContainer = Environment.GetEnvironmentVariable("STORAGE_CONTAINER");
             string filePath = Environment.GetEnvironmentVariable("STORAGE_FILEPATH");
 
+            // TODO: make generic
+            string eh_owner = Environment.GetEnvironmentVariable("EH_PROPERTIES_OWNER");
+
             while (true)
             {
                 Console.WriteLine("Start sending data to Event Hubs");
                 try
                 {
                     var producer = new EHBlobProducer(ehConnectionString, storageConnectionString);
-                    await producer.sendFile(storageContainer, filePath, new Dictionary<string, object> { { "owner", "lace" } });
+                    await producer.sendFile(storageContainer, filePath, new Dictionary<string, object> { { "owner", eh_owner } });
                 }
                 catch (Exception ex)
                 {
