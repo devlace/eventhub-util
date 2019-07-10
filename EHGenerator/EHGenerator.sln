@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHGenerator", "EHGenerator\EHGenerator.csproj", "{D6DBBF78-66CF-4C61-9B9D-8683210CF477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EHGenerator.Tests", "EHGenerator.Tests\EHGenerator.Tests.csproj", "{929B0F07-ADFA-42C9-A119-17970DC63071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6DBBF78-66CF-4C61-9B9D-8683210CF477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DBBF78-66CF-4C61-9B9D-8683210CF477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DBBF78-66CF-4C61-9B9D-8683210CF477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DBBF78-66CF-4C61-9B9D-8683210CF477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929B0F07-ADFA-42C9-A119-17970DC63071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929B0F07-ADFA-42C9-A119-17970DC63071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929B0F07-ADFA-42C9-A119-17970DC63071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929B0F07-ADFA-42C9-A119-17970DC63071}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD031C90-7FB7-41D5-94D9-E8DF94BB9E4E}
+	EndGlobalSection
+EndGlobal
